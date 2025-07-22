@@ -6,7 +6,6 @@ from rescue_env import RescueGridEnv
 from PPO_agent import PPOAgent
 from PPO_agent import PPOAgentWithICM
 from utils import plot_rewards
-from tqdm import tqdm
 import time
 from actor_critic_cnn import ActorCriticCNN
 
