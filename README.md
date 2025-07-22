@@ -5,7 +5,7 @@
 This project implements a **Proximal Policy Optimization (PPO)** agent augmented with an **Intrinsic Curiosity Module (ICM)**, trained to autonomously explore a maze-like environment, find hidden victims, and learn efficient navigation strategies through internal motivation.
 
 ### DEMO
-![]()
+![](https://github.com/EricChen0104/ppo-icm-maze-exploration/blob/master/assets/GIF_DEMO.gif)
 
 ---
 
