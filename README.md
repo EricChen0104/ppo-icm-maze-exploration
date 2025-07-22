@@ -29,7 +29,6 @@ The project is designed as a stepping stone toward full **SLAM-based autonomous 
 | Exploration    | ICM        | Curiosity-driven intrinsic rewards based on prediction error |
 | Temporal Memory| LSTM       | Helps the agent remember explored vs unexplored areas |
 | Vision Input   | CNN        | Encodes local observations                        |
-| Mapping        | Occupancy Grid Map (OGM) | Supports frontier-based planning and SLAM integration |
 
 ---
 
@@ -39,7 +38,6 @@ The project is designed as a stepping stone toward full **SLAM-based autonomous 
 - **Partial observability**: local vision to simulate real-world sensing
 - **Dynamic victim locations**: randomized at every episode
 - **Visualization**: real-time rendering with `pygame`
-- **Exploration tracking**: supports visited map and pseudo-count reward shaping
 
 ---
 
@@ -60,11 +58,8 @@ The project is designed as a stepping stone toward full **SLAM-based autonomous 
 # Install dependencies
 pip install -r requirements.txt
 
-# Train PPO + ICM
+# Train and Test PPO + ICM
 python main.py
-
-# Test trained agent
-python test.py
 ```
 
 ## 📁 Project Structure
