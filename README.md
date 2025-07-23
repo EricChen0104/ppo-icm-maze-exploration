@@ -21,7 +21,7 @@ The project is designed as a stepping stone toward full **SLAM-based autonomous 
 
 ---
 
-## 🧠 Core Techniques
+## Core Techniques
 
 | Module        | Method                     | Description                                       |
 |---------------|----------------------------|---------------------------------------------------|
@@ -32,7 +32,7 @@ The project is designed as a stepping stone toward full **SLAM-based autonomous 
 
 ---
 
-## 🗺️ Environment Highlights – `RescueGridEnv`
+## Environment Highlights – `RescueGridEnv`
 
 - **Grid-based environment**: customizable size, obstacle density, and visibility radius
 - **Partial observability**: local vision to simulate real-world sensing
@@ -41,7 +41,7 @@ The project is designed as a stepping stone toward full **SLAM-based autonomous 
 
 ---
 
-## 🔍 Performance Snapshot
+## Performance Snapshot
 
 | Agent            | Avg. Explored | Success Rate | Avg. Reward |
 |------------------|---------------|---------------|-------------|
@@ -52,7 +52,7 @@ The project is designed as a stepping stone toward full **SLAM-based autonomous 
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 ```bash
 # Install dependencies
@@ -62,11 +62,10 @@ pip install -r requirements.txt
 python main.py
 ```
 
-## 📁 Project Structure
+## Project Structure
 ```bash
 MAZE_RESCUE/
 ├── main.py               # Training entry point
-├── test.py               # Testing script
 ├── PPO_agent.py          # PPO and PPO+ICM implementations
 ├── ICM.py                # Intrinsic Curiosity Module
 ├── actor_critic_cnn.py   # CNN + LSTM-based network
@@ -75,7 +74,7 @@ MAZE_RESCUE/
 └── model/                # Saved models
 ```
 
-📈 What's Next
+What's Next
 - ✅ Frontier detection + potential-based reward shaping
 - ✅ Hierarchical RL (Manager-Worker subgoal architecture)
 - ✅ Transition to continuous action space (v, ω)
